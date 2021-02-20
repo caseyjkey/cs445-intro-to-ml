@@ -117,7 +117,6 @@
     "            # Use current weight values to predict output for sample n, then\n",
     "            # calculate the error, and\n",
     "            # update the weight values.\n",
-    "            #. . .\n",
     "            y = X1[n:n + 1, :] @ w      # predicted value, y, for sample n\n",
     "            error = T[n:n + 1, :] - y  \n",
     "            # update weights by fraction of negative derivative of square error with respect to weights\n",
@@ -1433,7 +1432,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 95,
+   "execution_count": 96,
    "metadata": {},
    "outputs": [
     {
